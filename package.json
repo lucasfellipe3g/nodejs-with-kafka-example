@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-with-kafka-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "tsx watch src/producer/index.ts",
+    "start:consumer": "tsx watch src/consumer/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "1.2.0",
+    "@types/node": "18.15.11",
+    "eslint": "8.37.0",
+    "tsx": "3.12.6",
+    "typescript": "5.0.2"
+  },
+  "dependencies": {
+    "avsc": "5.7.7",
+    "node-rdkafka": "2.15.0"
+  }
+}
